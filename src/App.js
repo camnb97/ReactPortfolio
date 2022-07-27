@@ -7,7 +7,12 @@ import About from './components/about';
 import Resume from './components/resume';
 import Contact from './components/contact';
 import Footer from './components/footer';
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 // ---
 // import Header from './components/common';
 // import Nav from './components/common';
@@ -33,13 +38,19 @@ switch (window.location.pathname) {
     component = <Resume></Resume>
 }
 
+{/* <div className='container'>{component}</div> */ }
 function App() {
   return (
-    <div>
+    <Router>
       <Header></Header>
-      <div className='container'>{component}</div>
+      <Routes>
+        <Route exact path="/ReactPortfolio" element={<About />}></Route>
+        <Route exact path="/projects" element={<Projects />}></Route>
+        <Route exact path="/contact" element={<Contact />}></Route>
+        <Route exact path="/resume" element={<Resume />}></Route>
+      </Routes>
       <Footer></Footer>
-    </div>
+    </Router>
   );
 }
 

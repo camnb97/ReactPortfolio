@@ -1,7 +1,17 @@
 // look up how to map through pages
+import { NavLink } from "react-router-dom"
 
+{/* <CustomLink href="/about">About Me</CustomLink>
+<CustomLink href="/projects">Portfolio</CustomLink>
+<CustomLink href="/contact">Contact</CustomLink>
+<CustomLink href="/resume">Resume</CustomLink> */}
 
 function Nav() {
+
+    var bgc = {
+        backgroundColor: "red"
+    }
+
 
     return (
         <nav className="navbar navbar-expand-lg"  >
@@ -12,10 +22,18 @@ function Nav() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <CustomLink href="/about">About Me</CustomLink>
-                        <CustomLink href="/projects">Portfolio</CustomLink>
-                        <CustomLink href="/contact">Contact</CustomLink>
-                        <CustomLink href="/resume">Resume</CustomLink>
+                        <li>
+                            <NavLink to="/ReactPortfolio">About Me</NavLink >
+                        </li>
+                        <li>
+                            <NavLink to="/projects" >Projects</NavLink >
+                        </li>
+                        <li>
+                            <NavLink to="/contact" >Contact</NavLink >
+                        </li>
+                        <li>
+                            <NavLink to="/resume" >Resume</NavLink >
+                        </li>
                         {/* <li className="nav-item">
                                 <a className="nav-link" href="/about">About Me</a>
                             </li> */}
@@ -36,13 +54,13 @@ function Nav() {
     );
 }
 
-function CustomLink({ href, children, ...props }) {
-    const path = window.location.pathname
-    return (
-        < li className={path === href ? "nav-item active" : "nav-item"} >
-            <a className="nav-link" href={href}>{children}</a>
-        </li >
-    )
-}
+// function CustomLink({ href, children, ...props }) {
+//     const path = window.location.pathname
+//     return (
+//         < li className={path === href ? "nav-item active" : "nav-item"} >
+//             <a className="nav-link" href={href}>{children}</a>
+//         </li >
+//     )
+// }
 
 export default Nav;
