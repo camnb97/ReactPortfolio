@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.7cba57a9.css",
+    "main.js": "/ReactPortfolio/static/js/main.73918cc2.js",
+    "static/js/787.10c1ab8b.chunk.js": "/ReactPortfolio/static/js/787.10c1ab8b.chunk.js",
+    "static/media/BannerBG.png": "/ReactPortfolio/static/media/BannerBG.ad9d149e46da6e98c079.png",
+    "static/media/DDscreenshot.png": "/ReactPortfolio/static/media/DDscreenshot.04ed30b68f3fef516a91.png",
+    "static/media/Profile Pic.jpeg": "/ReactPortfolio/static/media/Profile Pic.17062b39084a839e947e.jpeg",
+    "static/media/BlackJackSS.png": "/ReactPortfolio/static/media/BlackJackSS.8cf2eae70547269be02e.png",
+    "static/media/Cloudy-Sky-Thin.png": "/ReactPortfolio/static/media/Cloudy-Sky-Thin.9aae2f8ac0028d3edf5f.png",
+    "static/media/screenshot2_deployed.png": "/ReactPortfolio/static/media/screenshot2_deployed.6069566305af44e9e8c5.png",
+    "static/media/NoteTakerSS.png": "/ReactPortfolio/static/media/NoteTakerSS.8e8ef99f49d5fce815d5.png",
+    "static/media/Screenshot-rn-password-gen.png": "/ReactPortfolio/static/media/Screenshot-rn-password-gen.bfb3d1bf8210db4d28a1.png",
+    "static/media/PassengerCounterSS.png": "/ReactPortfolio/static/media/PassengerCounterSS.0e4212d70c3c5116eb7a.png",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.7cba57a9.css.map": "/ReactPortfolio/static/css/main.7cba57a9.css.map",
+    "main.73918cc2.js.map": "/ReactPortfolio/static/js/main.73918cc2.js.map",
+    "787.10c1ab8b.chunk.js.map": "/ReactPortfolio/static/js/787.10c1ab8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cba57a9.css",
+    "static/js/main.73918cc2.js"
+  ]
+}
